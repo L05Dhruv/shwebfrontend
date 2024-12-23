@@ -1,0 +1,29 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: rgb(234, 222, 206);
+  --primary-color-text: rgb(71, 29, 30);
+  --secondary-color: rgb(201, 159, 119);
+  --secondary-color-text: rgb(234, 222, 206);
+  --tertiary-color: rgb(71, 29, 30);
+  --tertiary-color-text: rgb(201, 159, 119);
+}
+
+.home-navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex-grow: 1;
+}

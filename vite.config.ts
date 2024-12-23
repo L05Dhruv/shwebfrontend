@@ -6,21 +6,21 @@ import { defineConfig } from "vite";
 export default defineConfig({
     // Specify any configuration you want here
     build: {
-        // rollupOptions:{
-        //     input: {
-        //         main: 'src/main.ts',
-        //         router: 'src/router.ts',
-        //         index: 'index.html',
-        //     },
-        //     output: {
-        //         dir: 'dist',
-        //     }
-        // },
+        rollupOptions:{
+            input: {
+                main: './main.ts',
+                router: './router.ts',
+                index: './index.html',
+            },
+            output: {
+                dir: 'dist',
+            }
+        },
         // Ensure assets are included in the build.
         // This is the limit for inlining assets in the HTML - to prevent the HTML from being too large.
         // assetsInlineLimit: 4096,
     },
-    base: '/peptalk-web-frontend/',
+    base: '/',
     // plugins: [
     //     tsconfigPaths(),
     //     checker({ typescript: true })

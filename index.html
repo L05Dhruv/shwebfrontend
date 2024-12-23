@@ -4,14 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SH Web Frontend</title>
-    <script type="module" src="main.ts"></script>
-    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="icon" type="image/svg+xml" href="./sabu_amber_just_head.png" />
+    <script type="module" src="./main.ts"></script>
+    
+    <link rel="stylesheet" href="/./dist/output.css">
+
+    <!-- Google's League Spartan font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind's inter font -->
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
 </head>
 <body>
-    <h1>SH Web Frontend</h1>
-    <div id="app"></div>
+    <!-- Navbar -->
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a href="/products">Products</a></li>
+              <li>
+                <a href="/safelist">Safe List</a>
+                <ul class="p-2">
+                  <li><a href="/yeslist">Yes List</a></li>
+                  <li><a href="/nolist">No List</a></li>
+                </ul>
+              </li>
+              <li><a href="/aboutsabu">About Sabu</a></li>
+            </ul>
+          </div>
+          <a href="/" class="btn btn-ghost text-xl">Sabu</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="/products">Products</a></li>
+            <li>
+              <details>
+                <summary>Safe List</summary>
+                <ul class="p-2">
+                  <li><a href="/yeslist">Yes List</a></li>
+                  <li><a href="/nolist">No List</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a href="/aboutsabu">About Sabu</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Log in</a>
+        </div>
+    </div>
+      <!-- End of Navbar -->
+    
+    <main>
+        <div id="app"></div>
+    </main>
+
+      <!-- Footer -->
+      <footer class="footer bg-base-200 text-base-content p-10">
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Web Development</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Sabu Health LLC</h6>
+          <a href="/aboutsabu" class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Merchandise</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a href="/consumer-notice" class="link link-hover">Consumer Notice</a>
+          <a href="/privacy" class="link link-hover">Privacy policy</a>
+          <a href="/cookie-policy" class="link link-hover">Cookie policy</a>
+          <a href="/delete-my-data" class="link link-hover">Delete My Data</a>
+        </nav>
+        <form>
+          <h6 class="footer-title">Newsletter</h6>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="input input-bordered join-item" />
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
+      <!-- End of Footer -->
 </body>
 </html>

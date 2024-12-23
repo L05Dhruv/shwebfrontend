@@ -1,0 +1,14 @@
+Tailwind CSS tutorial followed: https://www.youtube.com/watch?v=arftp8kFBBg
+
+folder structure used in video:
+
+shwebfrontend
+├── dist
+    |---index.html
+    |---output.css
+├── node_modules
+|---src
+    |---input.css
+├── package.json
+|---package-lock.json
+├── tailwind.config.js
