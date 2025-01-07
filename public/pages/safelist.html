@@ -6,191 +6,165 @@
     <title>homepage</title>
 </head>
 <body>
-    <h1>Safe List</h1>
-    <!-- Safe List -->
-    <div class="overflow-x-auto">
-        <table class="table">
-          <!-- head -->
-          <thead>
-            <tr>
-              <th>
-                <label>
-                  <input type="checkbox" class="checkbox" />
-                </label>
-              </th>
-              <th>Name</th>
-              <th>Job</th>
-              <th>Favorite Color</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <!-- row 1 -->
-            <tr>
-              <th>
-                <label>
-                  <input type="checkbox" class="checkbox" />
-                </label>
-              </th>
-              <td>
-                <div class="flex items-center gap-3">
-                  <div class="avatar">
-                    <div class="mask mask-squircle h-12 w-12">
-                      <img
-                        src="https://img.daisyui.com/images/profile/demo/2@94.webp"
-                        alt="Avatar Tailwind CSS Component" />
-                    </div>
-                  </div>
-                  <div>
-                    <div class="font-bold">Hart Hagerty</div>
-                    <div class="text-sm opacity-50">United States</div>
-                  </div>
-                </div>
-              </td>
-              <td>
-                Zemlak, Daniel and Leannon
-                <br />
-                <span class="badge badge-ghost badge-sm">Desktop Support Technician</span>
-              </td>
-              <td>Purple</td>
-              <th>
-                <button class="btn btn-ghost btn-xs">details</button>
-              </th>
-            </tr>
-            <!-- row 2 -->
-            <tr>
-              <th>
-                <label>
-                  <input type="checkbox" class="checkbox" />
-                </label>
-              </th>
-              <td>
-                <div class="flex items-center gap-3">
-                  <div class="avatar">
-                    <div class="mask mask-squircle h-12 w-12">
-                      <img
-                        src="https://img.daisyui.com/images/profile/demo/3@94.webp"
-                        alt="Avatar Tailwind CSS Component" />
-                    </div>
-                  </div>
-                  <div>
-                    <div class="font-bold">Brice Swyre</div>
-                    <div class="text-sm opacity-50">China</div>
-                  </div>
-                </div>
-              </td>
-              <td>
-                Carroll Group
-                <br />
-                <span class="badge badge-ghost badge-sm">Tax Accountant</span>
-              </td>
-              <td>Red</td>
-              <th>
-                <button class="btn btn-ghost btn-xs">details</button>
-              </th>
-            </tr>
-            <!-- row 3 -->
-            <tr>
-              <th>
-                <label>
-                  <input type="checkbox" class="checkbox" />
-                </label>
-              </th>
-              <td>
-                <div class="flex items-center gap-3">
-                  <div class="avatar">
-                    <div class="mask mask-squircle h-12 w-12">
-                      <img
-                        src="https://img.daisyui.com/images/profile/demo/4@94.webp"
-                        alt="Avatar Tailwind CSS Component" />
-                    </div>
-                  </div>
-                  <div>
-                    <div class="font-bold">Marjy Ferencz</div>
-                    <div class="text-sm opacity-50">Russia</div>
-                  </div>
-                </div>
-              </td>
-              <td>
-                Rowe-Schoen
-                <br />
-                <span class="badge badge-ghost badge-sm">Office Assistant I</span>
-              </td>
-              <td>Crimson</td>
-              <th>
-                <button class="btn btn-ghost btn-xs">details</button>
-              </th>
-            </tr>
-            <!-- row 4 -->
-            <tr>
-              <th>
-                <label>
-                  <input type="checkbox" class="checkbox" />
-                </label>
-              </th>
-              <td>
-                <div class="flex items-center gap-3">
-                  <div class="avatar">
-                    <div class="mask mask-squircle h-12 w-12">
-                      <img
-                        src="https://img.daisyui.com/images/profile/demo/5@94.webp"
-                        alt="Avatar Tailwind CSS Component" />
-                    </div>
-                  </div>
-                  <div>
-                    <div class="font-bold">Yancy Tear</div>
-                    <div class="text-sm opacity-50">Brazil</div>
-                  </div>
-                </div>
-              </td>
-              <td>
-                Wyman-Ledner
-                <br />
-                <span class="badge badge-ghost badge-sm">Community Outreach Specialist</span>
-              </td>
-              <td>Indigo</td>
-              <th>
-                <button class="btn btn-ghost btn-xs">details</button>
-              </th>
-            </tr>
-          </tbody>
-          <!-- foot -->
-          <tfoot>
-            <tr>
-              <th></th>
-              <th>Name</th>
-              <th>Job</th>
-              <th>Favorite Color</th>
-              <th></th>
-            </tr>
-          </tfoot>
-        </table>
-      </div>
-    <!-- End of Safe List -->
 
-    <!-- FAQ -->
-    <div class="collapse collapse-arrow bg-base-200">
-      <input type="radio" name="my-accordion-2" checked="checked" />
-      <div class="collapse-title text-xl font-medium">Are the ingredients organic?</div>
-      <div class="collapse-content">
-        <p>Yes, all of our ingredients are organic.</p>
-      </div>
+<div class="app-page">
+  <!-- Table beginning -->
+  <div id="safelist-table">
+    <h1>Safe List</h1>
+    <p>Below outlines the harmful ingredients that we strictly exclude from our products. We do this to ensure our supplements meet the highest standards of safety, purity, and quality for your peace of mind.</p>
+    <div class="h-96 overflow-x-auto">
+      <table class="table table-pin-rows">
+        <thead>
+          <tr>
+            <th>A</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Amines: (DEA, MEA, TEA)</td></tr>
+          <tr><td>Artificial Colors</td></tr>
+          <tr><td>Artificial Fragrances</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>B</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Benzene</td></tr>
+          <tr><td>Bisphenol A (BPA)</td></tr>
+          <tr><td>Bisphenol S (BPS)</td></tr>
+          <tr><td>Bacterial Contaminants</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>D</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Dimethicones</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>E</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>EDTA</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>F</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Formaldehyde</td></tr>
+          <tr><td>Fungus</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>G</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>GMOs</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>H</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Hydrogenated Oils</td></tr>
+          <tr><td>Heavy Metals</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>L</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Lavender</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>M</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Mineral Oil</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>N</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Nano Particles</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>P</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Parabens</td></tr>
+          <tr><td>Petroleum</td></tr>
+          <tr><td>Phthalates</td></tr>
+          <tr><td>Polyvinyl Chlorides (PVCs)</td></tr>
+          <tr><td>Polyethylene Glycols (PEGs)</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>Q</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>QUATS</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>S</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Silicone(s)</td></tr>
+          <tr><td>Sodium Lauryl Sulfate (SLSs)</td></tr>
+          <tr><td>Soy</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>T</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Tea Tree</td></tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>U</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Urea(s)</td></tr>
+        </tbody>
+      </table>
     </div>
-    <div class="collapse collapse-arrow bg-base-200">
-      <input type="radio" name="my-accordion-2" />
-      <div class="collapse-title text-xl font-medium">Is this product effective?</div>
-      <div class="collapse-content">
-        <p>Yes, this is effective.</p>
-      </div>
+    <!-- Table end -->
+  </div>
+  <div class="big-container">
+    <div class="left-text">
+      <p>
+        Customer safety and product quality are at the heart of everything we do, which is why we maintain a comprehensive "Safe List" of harmful ingredients and substances that will never be included in our products. 
+        This includes toxic chemicals, hormone-altering substances, pathogens, and pollutants, ensuring that every supplement we create meets the highest standards of purity and safety.
+        To uphold this promise, we partner with a state-of-the-art lab that is FDA-inspected, NSF GMP program registered, and holds Kosher, Halal, Organic, and GFCO certifications.
+        Our lab also complies with OSHA standards, meets Health Canada requirements, and undergoes rigorous customer audits and vendor qualifications. By adhering to these stringent measures, SABU delivers products you can trust, free from harmful ingredients and made with your wellness in mind.
+      </p>
     </div>
-    <div class="collapse collapse-arrow bg-base-200">
-      <input type="radio" name="my-accordion-2" />
-      <div class="collapse-title text-xl font-medium">Why is this product so much cheaper than other products?</div>
-      <div class="collapse-content">
-        <p>We want consumers of many ages and demographics to be able to afford our product.</p>
-      </div>
+    <div class="right-image">
+      <img src="../minimalist laboratory.webp" alt="">
     </div>
-    <!-- End of FAQ -->
+  </div>
+</div>
 
 </body>
 </html>
