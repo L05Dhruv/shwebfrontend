@@ -293,6 +293,7 @@ main {
     font-style: normal;
     /* color: var(--tertiary-color-text); */
     color: var(--secondary-color-text);
+    margin-bottom: 1vh;
 }
 
 .right-image img {
