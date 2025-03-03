@@ -6,7 +6,7 @@
 2. npm install
 3. npm run dev
 
-Or visit the live site [here](https://l05dhruv.github.io/shwebfrontend/)
+<!-- Or visit the live site [here](https://l05dhruv.github.io/shwebfrontend/) -->
 
 ### Tech
 
@@ -14,3 +14,6 @@ Or visit the live site [here](https://l05dhruv.github.io/shwebfrontend/)
 - CSS
 - Typescript
 - Vite
+- TailwindCSS
+- DaisyUI
+- Vanilla Router

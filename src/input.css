@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: rgb(234, 222, 206);
-  --primary-color-text: rgb(71, 29, 30);
-  --secondary-color: rgb(201, 159, 119);
-  --secondary-color-text: rgb(234, 222, 206);
-  --tertiary-color: rgb(71, 29, 30);
-  --tertiary-color-text: rgb(201, 159, 119);
+  --primary-color: rgb(234, 222, 206); /* #eaeede */
+  --primary-color-text: rgb(71, 29, 30); /* #471d1e */
+  --secondary-color: rgb(201, 159, 119); /* #c99f77 */
+  --secondary-color-text: rgb(234, 222, 206); /* #eaeede */
+  --tertiary-color: rgb(71, 29, 30); /* #471d1e */
+  --tertiary-color-text: rgb(201, 159, 119); /* #c99f77 */
 }
 
 .home-navbar {
